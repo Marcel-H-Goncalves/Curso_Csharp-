@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sexto Projeto", "Sexto Projeto\Sexto Projeto.csproj", "{4E792711-8ABC-4C4B-8904-63B931C249AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setimo projeto", "setimo projeto\setimo projeto.csproj", "{80419D96-2863-4979-8F89-09F093810713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E792711-8ABC-4C4B-8904-63B931C249AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E792711-8ABC-4C4B-8904-63B931C249AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E792711-8ABC-4C4B-8904-63B931C249AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E792711-8ABC-4C4B-8904-63B931C249AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80419D96-2863-4979-8F89-09F093810713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80419D96-2863-4979-8F89-09F093810713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80419D96-2863-4979-8F89-09F093810713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80419D96-2863-4979-8F89-09F093810713}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ECA3A81-009E-45EF-B85D-C27A721E705E}
+	EndGlobalSection
+EndGlobal
