@@ -147,16 +147,15 @@
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(288, 361);
+            textBox1.Location = new Point(253, 361);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(264, 35);
             textBox1.TabIndex = 11;
             // 
             // botaoAplicar
             // 
-            botaoAplicar.FlatStyle = FlatStyle.Popup;
             botaoAplicar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botaoAplicar.Location = new Point(317, 402);
+            botaoAplicar.Location = new Point(286, 402);
             botaoAplicar.Name = "botaoAplicar";
             botaoAplicar.Size = new Size(200, 36);
             botaoAplicar.TabIndex = 12;
@@ -168,7 +167,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(184, 9);
+            label1.Location = new Point(165, 35);
             label1.Name = "label1";
             label1.Size = new Size(415, 37);
             label1.TabIndex = 13;
@@ -190,7 +189,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(317, 337);
+            label2.Location = new Point(286, 337);
             label2.Name = "label2";
             label2.Size = new Size(196, 21);
             label2.TabIndex = 15;
@@ -210,7 +209,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(735, 484);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(Steam);
@@ -221,6 +220,8 @@
             Controls.Add(Nintendo);
             Controls.Add(Xbox);
             Controls.Add(Playstation);
+            MaximumSize = new Size(751, 523);
+            MinimumSize = new Size(751, 523);
             Name = "Form1";
             Text = "Form1";
             groupBox1.ResumeLayout(false);
