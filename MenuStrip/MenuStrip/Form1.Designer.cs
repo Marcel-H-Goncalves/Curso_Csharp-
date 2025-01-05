@@ -37,9 +37,9 @@
             toolStripMenuItem1 = new ToolStripMenuItem();
             pasta = new ToolStripMenuItem();
             editar = new ToolStripMenuItem();
-            exibir = new ToolStripMenuItem();
             IrPara = new ToolStripMenuItem();
-            toolStripMenuItem3 = new ToolStripMenuItem();
+            localizar = new ToolStripMenuItem();
+            exibir = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -99,16 +99,10 @@
             // 
             // editar
             // 
-            editar.DropDownItems.AddRange(new ToolStripItem[] { IrPara, toolStripMenuItem3 });
+            editar.DropDownItems.AddRange(new ToolStripItem[] { IrPara, localizar });
             editar.Name = "editar";
             editar.Size = new Size(49, 20);
             editar.Text = "Editar";
-            // 
-            // exibir
-            // 
-            exibir.Name = "exibir";
-            exibir.Size = new Size(47, 20);
-            exibir.Text = "Exibir";
             // 
             // IrPara
             // 
@@ -116,12 +110,17 @@
             IrPara.Size = new Size(180, 22);
             IrPara.Text = "Ir Para";
             // 
-            // toolStripMenuItem3
+            // localizar
             // 
-            toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(180, 22);
-            toolStripMenuItem3.Text = "toolStripMenuItem3";
-            
+            localizar.Name = "localizar";
+            localizar.Size = new Size(180, 22);
+            localizar.Text = "Localizar Arquivo";
+            // 
+            // exibir
+            // 
+            exibir.Name = "exibir";
+            exibir.Size = new Size(47, 20);
+            exibir.Text = "Exibir";
             // 
             // Form1
             // 
@@ -151,6 +150,6 @@
         private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripMenuItem pasta;
         private ToolStripMenuItem IrPara;
-        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem localizar;
     }
 }
