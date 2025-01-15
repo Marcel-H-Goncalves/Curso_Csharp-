@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Criando_um_projeto_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" FontSize="20" >
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="94,88,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="78,164,0,0" VerticalAlignment="Top"/>
@@ -13,6 +13,6 @@
         <TextBox HorizontalAlignment="Left" Margin="488,279,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="446,153,0,0" VerticalAlignment="Top"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="629,72,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Label Width="130" Height="30" Content="Minha primeira Label" />
+        <Label Width="250" Height="40" Content="Minha primeira Label" />
     </Grid>
 </Window>
