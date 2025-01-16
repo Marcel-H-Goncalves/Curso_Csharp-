@@ -32,8 +32,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-        <Button x:Name="botao1" Grid.Column="1" Grid.Row="1" Content="Botão1" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <Button x:Name="botao2" Grid.Column="5" Grid.Row="1" Content="Botão2" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Button x:Name="botao1" Grid.Column="1" Grid.Row="1" Content="Botão1" Grid.ColumnSpan="4" Grid.RowSpan="2" Margin="5,5,5,5"/>
+        <Button x:Name="botao2" Grid.Column="5" Grid.Row="1" Content="Botão2" Grid.ColumnSpan="4" Grid.RowSpan="2" Margin="5,5,5,5"/>
         <TextBox x:Name="TextBox1" Grid.Column="1" Grid.Row="4" Text="Meu TextBox" Grid.ColumnSpan="7"/>
         <CheckBox Grid.Column="2" Content="CheckBox" HorizontalAlignment="Left" Margin="38,0,0,0" Grid.Row="5" Grid.ColumnSpan="3" VerticalAlignment="Center"/>
 
