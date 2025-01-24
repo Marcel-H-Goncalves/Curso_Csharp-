@@ -37,8 +37,8 @@
         <TextBox x:Name="textBoxUsuario" Grid.Column="1" Grid.ColumnSpan="8" Margin="4,4,4,4" Grid.Row="5" TextWrapping="Wrap"/>
         <PasswordBox x:Name="passwordBoxSenha" Grid.Column="1" Grid.ColumnSpan="8" Margin="4,4,4,4" Grid.Row="7"/>
         <TextBox x:Name="textBoxSenha" Grid.Column="1" Grid.ColumnSpan="8" Margin="4,4,4,4" Grid.Row="7" TextWrapping="Wrap" Visibility="Collapsed"/>
-        <Button x:Name="buttonEntrar" Grid.Column="1" Content="Entrar" Grid.ColumnSpan="8" Margin="4,4,4,4" Grid.Row="8" FontSize="14"/>
-        <Button x:Name="buttonShow" Grid.Column="8" Content="Show" Margin="4,4,4,4" Grid.Row="6"/>
+        <Button x:Name="buttonEntrar" Grid.Column="1" Content="Entrar" Grid.ColumnSpan="8" Margin="4,4,4,4" Grid.Row="8" FontSize="14" Click="buttonEntrar_Click"/>
+        <Button x:Name="buttonShow" Grid.Column="8" Content="Show" Margin="4,4,4,4" Grid.Row="6" Click="buttonShow_Click" MouseLeave="buttonShow_MouseLeave"/>
 
     </Grid>
 </Window>
