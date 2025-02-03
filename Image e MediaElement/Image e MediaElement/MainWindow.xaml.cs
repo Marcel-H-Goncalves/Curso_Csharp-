@@ -23,10 +23,9 @@ namespace Image_e_MediaElement
             BitmapImage imagem = new BitmapImage(enderecoImagem);
             image.Source = imagem;
 
-            
+            mediaElement.LoadedBehavior = MediaState.Manual;
             Uri enderecoVideo = new Uri(@"C:\Users\marce\source\repos\Image e MediaElement\cod.exe 2025.01.26 - 08.49.14.01.mp4");
             mediaElement.Source = enderecoVideo;
-            mediaElement.LoadedBehavior = MediaState.Manual;
             mediaElement.Pause();
             mediaElement.Play();
            
