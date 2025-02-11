@@ -10,7 +10,7 @@ namespace Servidor_WebService
     {
         static void Main(string[] args)
         {
-            MeuServidorWebService meuServidorLocal = new MeuServidorWebService("http://localhost:8080/MeuServidorLocal");
+            MeuServidorWebService meuServidorLocal = new MeuServidorWebService("http://192.168.1.219:80/MeuServidorLocal");
             Console.WriteLine("Pressione qualquer tecla para sair");
             Console.ReadKey();
         }

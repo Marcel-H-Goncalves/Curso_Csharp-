@@ -122,7 +122,7 @@ namespace ServiceReference
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IContratoServidor))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost:8080/MeuServidorLocal");
+                return new System.ServiceModel.EndpointAddress("http://192.168.1.219/MeuServidorLocal");
             }
             throw new System.InvalidOperationException(string.Format("Não foi possível encontrar o ponto de extremidade com o nome \'{0}\'.", endpointConfiguration));
         }
